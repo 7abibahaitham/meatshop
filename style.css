@@ -1,0 +1,71 @@
+body
+{
+    background-color: lightcoral;
+    background-image: url('bg2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 100%;
+    height: 100%;
+    
+    font-family: "Times New Roman", Times, serif;
+}
+.tb {
+    padding: 2px;
+    box-shadow: 2px 2px 4px red;
+    font-size: 18px;
+    font-weight: 600;
+    width: 300px;
+}
+#button {
+    padding: 10px; 
+    border: 1px solid black;
+    background-color:rgb(209, 57, 57);
+    border-radius: 5px;
+    font: inherit;
+    color: rgb(230, 193, 193);
+    width: 150px;
+}
+label{
+    color: rgb(230, 56, 85);
+    font-weight: bold;
+    
+}
+a{
+    margin: 0;
+    padding: 0;
+    
+    color: rgb(117, 5, 5);
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    margin: 0px 10px;
+    position: relative;
+    transition: all .5s;
+}
+H1 {  text-align: center;
+font-family: cursive;
+color: rgb(117, 5, 5);
+}
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 6; /* Make sure it does not overlap */
+    border:4px solid darkred; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: rgb(209, 57, 57); /* Set a background color */
+    color: red; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 30px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: pink; /* Add a dark-grey background on hover */
+    color: darkred;
+  }
